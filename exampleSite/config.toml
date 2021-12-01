@@ -90,9 +90,6 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.bookmark_link]]
   title =  ""
   href =  ""
-params:
-  SEOTitle: your title
-  about_me: no
 
   [[params.addtional_menus]]
   title =  "CONTENT"
