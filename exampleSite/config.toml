@@ -1,6 +1,6 @@
 baseurl = ""
 title = ""
-theme = "hugo-theme-cleanwhite"
+theme = "hugo-theme-cleanwhite-gc"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -56,7 +56,7 @@ home = ["HTML", "RSS", "Algolia"]
 
   friends = false
   bookmarks = true
-  about_me = true
+  about_me = false
 
   # Include any custom CSS and/or JS files, url or relative to /static folder
   #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
@@ -72,7 +72,7 @@ home = ["HTML", "RSS", "Algolia"]
   stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
   #instagram     = "full profile url in instagram"
   github         = "https://github.com/yourgithub"
-  wechat         = "your wechat qr code image"
+  #wechat         = "your wechat qr code image"
 #  medium         = "full profile url in medium"
   #pinterest     = "full profile url in pinterest"
   #reddit        = "full profile url in reddit"
@@ -89,16 +89,13 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.bookmark_link]]
   title =  ""
   href =  ""
+params:
+  SEOTitle: your title
+  about_me: no
 
   [[params.addtional_menus]]
-  title =  "BOOKS"
-  href =  "/top/books/"
-  [[params.addtional_menus]]
-  title =  "ARCHIVE"
+  title =  "CONTENT"
   href =  "/top/archive/"
-  [[params.addtional_menus]]
-  title =  "ABOUT"
-  href =  "/top/about/"
 
 [outputFormats.Algolia]
 baseName = "algolia"
