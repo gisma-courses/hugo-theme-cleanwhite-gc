@@ -18,7 +18,7 @@ home = ["HTML", "RSS", "Algolia"]
   SEOTitle = "my Seotitle"
   description = "my description"
   keyword = "my key words"
-  slogan = "my slogan"
+  slogan = ""
 
   image_404 = "img/404-bg.jpg"
   title_404 = ":("
