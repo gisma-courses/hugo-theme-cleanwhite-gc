@@ -15,10 +15,10 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/home-bg-jeep.jpg"
-  SEOTitle = "Spatial Analysis with R"
-  description = "Spatial Analysis using the r-spatial ecosytem"
-  keyword = "remote sensing, GIS, GI, analysis"
-  slogan = ""
+  SEOTitle = "my Seotitle"
+  description = "my description"
+  keyword = "my key words"
+  slogan = "my slogan"
 
   image_404 = "img/404-bg.jpg"
   title_404 = ":("
@@ -30,7 +30,7 @@ home = ["HTML", "RSS", "Algolia"]
   leancloud_app_key = ""
 
   # algolia site search
-  algolia_search = true
+  algolia_search = false
   algolia_appId = ""
   algolia_indexName = ""
   algolia_apiKey = ""
@@ -107,7 +107,7 @@ params = ["categories", "tags"]
 
 [markup]
   [markup.tableOfContents]
-    endLevel = 2
+    endLevel = 3
     startLevel = 1
   [markup.highlight]
     style = "dracula"
