@@ -1,7 +1,7 @@
 baseurl = ""
 title = ""
 pulishDir = ""
-theme = "hugo-theme-clearwhite-gc"
+theme = "hugo-theme-cleanwhite-gc"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
